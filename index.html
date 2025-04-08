@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta property="og:title" content="Ink Master's Studio" />
+		<meta property="og:description" content="Art on your skin" />
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="./assets/logo.png" />
+		<link rel="icon" type="image/png" href="./assets/logo.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./assets/logo.png" />
+		<link rel="stylesheet" href="style/style.css" />
+		<title>Ink Master's Studio</title>
+	</head>
+	<body id="body">
+		<nav class="nav">
+			<a href="./index.html" class="nav-icon-wrapper">
+				<img src="./assets/logo.png" class="nav-icon" />
+				<h1 class="nav-title">Ink Master's</h1>
+			</a>
+			<button id="toggle-btn" class="toggle-btn">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</button>
+			<ul class="nav-links">
+				<li>
+					<a href="#home" class="nav-link"><p>Home</p></a>
+				</li>
+				<li>
+					<a href="#portfolio" class="nav-link"><p>Portfolio</p></a>
+				</li>
+				<li>
+					<a href="#about" class="nav-link"><p>About Me</p></a>
+				</li>
+				<li>
+					<a href="#booking" class="nav-link"><p>Bookings</p></a>
+				</li>
+			</ul>
+			<div id="side-bar" class="side-bar">
+				<ul class="side-bar-links">
+					<li>
+						<a href="#home" class="side-bar-link"><p>Home</p></a>
+					</li>
+					<li>
+						<a href="#portfolio" class="side-bar-link"><p>Portfolio</p></a>
+					</li>
+					<li>
+						<a href="#about" class="side-bar-link"><p>About Me</p></a>
+					</li>
+					<li>
+						<a href="#booking" class="side-bar-link"><p>Bookings</p></a>
+					</li>
+				</ul>
+				<hr />
+				<div class="side-bar-social">
+					<a href="#"
+						><img
+							src="./assets/icons/facebook-logo-bold.svg"
+							class="social-link"
+							alt="Facebook"
+					/></a>
+					<a href="#"
+						><img
+							src="./assets/icons/instagram-logo-bold.svg"
+							class="social-link"
+							alt="Instagram"
+					/></a>
+					<a href="#"
+						><img
+							src="./assets/icons/x-logo-bold.svg"
+							class="social-link"
+							alt="Twitter"
+					/></a>
+				</div>
+			</div>
+		</nav>
+
+		<header id="home" class="header two-columns">
+			<div class="header-image">
+				<img src="./assets/header.png" class="show-up-blur" />
+			</div>
+			<div class="header-content">
+				<h1 class="header-title">
+					<p class="show-up-blur">Ink</p>
+					<p class="show-up-blur">Master's</p>
+				</h1>
+				<p class="header-info show-up-blur">
+					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam
+					eveniet labore incidunt? Non quaerat deserunt assumenda laborum
+					tempora sapiente porro.
+				</p>
+				<div class="cta-section">
+					<a href="#booking"
+						><button class="btn show-up-blur">Book Now</button></a
+					>
+					<a href="#"
+						><button class="btn ghost-btn show-up-blur">Contact Me</button></a
+					>
+				</div>
+			</div>
+		</header>
+
+		<div class="body-content">
+			<div
+				class="slider"
+				style="--width: 150px; --height: 150px; --quantity: 5"
+			>
+				<div class="list">
+					<div class="item" style="--position: 1">
+						<img src="./assets/tattoos/image_1.JPG" alt="" />
+					</div>
+					<div class="item" style="--position: 2">
+						<img src="./assets/tattoos/image_2.JPG" alt="" />
+					</div>
+					<div class="item" style="--position: 3">
+						<img src="./assets/tattoos/image_3.JPG" alt="" />
+					</div>
+					<div class="item" style="--position: 4">
+						<img src="./assets/tattoos/image_4.JPG" alt="" />
+					</div>
+					<div class="item" style="--position: 5">
+						<img src="./assets/tattoos/image_5.JPG" alt="" />
+					</div>
+				</div>
+			</div>
+			<div
+				class="slider"
+				reverse="true"
+				style="--width: 200px; --height: 200px; --quantity: 4"
+			>
+				<div class="list">
+					<div class="item" style="--position: 6">
+						<img src="./assets/tattoos/image_6.JPG" alt="" />
+					</div>
+					<div class="item" style="--position: 7">
+						<img src="./assets/tattoos/image_7.JPG" alt="" />
+					</div>
+					<div class="item" style="--position: 8">
+						<img src="./assets/tattoos/image_8.JPG" alt="" />
+					</div>
+					<div class="item" style="--position: 9">
+						<img src="./assets/tattoos/image_9.JPG" alt="" />
+					</div>
+				</div>
+			</div>
+			<section id="why-us" class="why-us">
+				<div class="why-us-container">
+					<div class="reason fade-in">
+						<div class="card-content">
+							<img src="./assets/icons/sketch-logo.svg" class="reason-icon" />
+							<h3>Unique Art</h3>
+							<p>Custom designs that reflect your style and personality.</p>
+						</div>
+					</div>
+					<div class="reason fade-in">
+						<div class="card-content">
+							<img src="./assets/icons/plant.svg" class="reason-icon" />
+							<h3>Professional Technique</h3>
+							<p>
+								Experience and precision in every stroke for flawless results.
+							</p>
+						</div>
+					</div>
+					<div class="reason fade-in">
+						<div class="card-content">
+							<img src="./assets/icons/hand-soap.svg" class="reason-icon" />
+							<h3>Guaranteed Hygiene</h3>
+							<p>
+								Sterilized equipment and a safe environment for your peace of
+								mind.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<section class="image-gallery">
+			<div class="image-gallery-container">
+				<div class="image-gallery-item">
+					<img
+						src="./assets/tattoos/image_1.JPG"
+						alt="Imagen 1"
+						class="fade-in"
+					/>
+				</div>
+				<div class="image-gallery-item">
+					<img
+						src="./assets/tattoos/image_2.JPG"
+						alt="Imagen 2"
+						class="fade-in"
+					/>
+				</div>
+				<div class="image-gallery-item">
+					<img
+						src="./assets/tattoos/image_3.JPG"
+						alt="Imagen 3"
+						class="fade-in"
+					/>
+				</div>
+				<div class="image-gallery-item">
+					<img
+						src="./assets/tattoos/image_4.JPG"
+						alt="Imagen 4"
+						class="fade-in"
+					/>
+				</div>
+				<div class="image-gallery-item">
+					<img
+						src="./assets/tattoos/image_5.JPG"
+						alt="Imagen 5"
+						class="fade-in"
+					/>
+				</div>
+				<div class="image-gallery-item">
+					<img
+						src="./assets/tattoos/image_6.JPG"
+						alt="Imagen 6"
+						class="fade-in"
+					/>
+				</div>
+				<div class="image-gallery-item">
+					<img
+						src="./assets/tattoos/image_7.JPG"
+						alt="Imagen 7"
+						class="fade-in"
+					/>
+				</div>
+				<div class="image-gallery-item">
+					<img
+						src="./assets/tattoos/image_8.JPG"
+						alt="Imagen 8"
+						class="fade-in"
+					/>
+				</div>
+				<div class="image-gallery-item">
+					<img
+						src="./assets/tattoos/image_9.JPG"
+						alt="Imagen 9"
+						class="fade-in"
+					/>
+				</div>
+				<div class="image-gallery-item">
+					<img
+						src="./assets/tattoos/image_10.JPG"
+						alt="Imagen 10"
+						class="fade-in"
+					/>
+				</div>
+				<div class="image-gallery-item">
+					<img
+						src="./assets/tattoos/image_1.JPG"
+						alt="Imagen 1"
+						class="fade-in"
+					/>
+				</div>
+				<div class="image-gallery-item">
+					<img
+						src="./assets/tattoos/image_2.JPG"
+						alt="Imagen 2"
+						class="fade-in"
+					/>
+				</div>
+				<div class="image-gallery-item">
+					<img
+						src="./assets/tattoos/image_3.JPG"
+						alt="Imagen 3"
+						class="fade-in"
+					/>
+				</div>
+				<div class="image-gallery-item">
+					<img
+						src="./assets/tattoos/image_4.JPG"
+						alt="Imagen 4"
+						class="fade-in"
+					/>
+				</div>
+				<div class="image-gallery-item">
+					<img
+						src="./assets/tattoos/image_5.JPG"
+						alt="Imagen 5"
+						class="fade-in"
+					/>
+				</div>
+			</div>
+		</section>
+
+		<div class="body-content">
+			<div class="two-columns">
+				<section id="about" class="about">
+					<div class="about-container">
+						<div class="photo-stack">
+							<img src="./assets/member_1.png" class="tattoist-photo" />
+							<img src="./assets/member_2.png" class="tattoist-photo" />
+							<img src="./assets/member_3.png" class="tattoist-photo" />
+						</div>
+					</div>
+				</section>
+
+				<section id="booking" class="booking-form">
+					<h3>Book Your Tattoo</h3>
+					<form action="#" method="POST">
+						<div class="form-group">
+							<label for="name">Name</label>
+							<input
+								type="text"
+								id="name"
+								name="name"
+								required
+								placeholder="Your Name"
+							/>
+						</div>
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input
+								type="email"
+								id="email"
+								name="email"
+								required
+								placeholder="Your Email"
+							/>
+						</div>
+						<div class="form-group">
+							<label for="date">Preferred Date</label>
+							<input type="date" id="date" name="date" required />
+						</div>
+						<div class="form-group">
+							<label for="description">Tattoo Description</label>
+							<textarea
+								id="description"
+								name="description"
+								rows="3"
+								placeholder="Describe your tattoo idea"
+								required
+							></textarea>
+						</div>
+						<button type="button" class="btn">Submit Request</button>
+					</form>
+				</section>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="footer-content">
+				<p>© 2025 Ink Master's Studio. All rights reserved.</p>
+				<div class="social-media">
+					<a href="#"
+						><img
+							src="./assets/icons/facebook-logo-bold.svg"
+							class="social-link"
+							alt="Facebook"
+					/></a>
+					<a href="#"
+						><img
+							src="./assets/icons/instagram-logo-bold.svg"
+							class="social-link"
+							alt="Instagram"
+					/></a>
+					<a href="#"
+						><img
+							src="./assets/icons/x-logo-bold.svg"
+							class="social-link"
+							alt="Twitter"
+					/></a>
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/main.js"></script>
+	</body>
+</html>
